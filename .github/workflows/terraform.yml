@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Terraform with specified version on the runner
-        uses: hashicorp/terraform@v2
+        uses: hashicorp/terraform@v3
         #with: 
         #  terraform_version: 1.6.3 
       
